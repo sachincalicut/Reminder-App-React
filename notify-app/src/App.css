@@ -1,0 +1,70 @@
+.App {
+  padding: 2em;
+}
+.title,
+.form-inline {
+  width: 800px;
+  margin: 0 auto;
+}
+.title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.form-control {
+  border-radius: 0px;
+  border: 3px solid #000;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.list-group {
+  height: 100%;
+  max-height: 500px;
+
+  border-radius: 0px;
+}
+.list-group-item {
+  margin: 10px 0px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.delete-btn {
+  float: right;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    right: 13px;
+    
+    width: 30px;
+    
+    padding: 0em 1em 0em 1em;
+    background: #fff;
+}
+.list-item {
+  display: inline-block;
+  font-size: 13px;
+}
+.m-t-sm {
+  margin-top: 20px;
+}
+.lg-input{
+  height:120px;
+}
+.btn-sm{
+  margin-bottom: 20px;
+}
+.seperator{
+  padding: 4px 9px;
+  border-top:1px solid #eee;
+  margin-top:10px;
+}
+.seperator .icon-clock{
+  display: inline;
+  font-size: 11px !important;
+  margin-right: 5px;
+}
+.pull-right{
+  float: right;
+}
+.icon-trash{
+  color: tomato;
+}
